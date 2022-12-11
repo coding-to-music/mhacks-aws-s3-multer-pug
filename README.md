@@ -1,14 +1,16 @@
 # mhacks-aws-s3-multer-pug
 
 
-# 🚀 YYYYYYYYYYYYYYYYYYY 🚀
+# 🚀 The official MHacks frontend and backend 🚀
 
 https://github.com/coding-to-music/mhacks-aws-s3-multer-pug
 
 https://mhacks-aws-s3-multer-pug.vercel.app
 
 
-From / By 
+From / By https://github.com/mhacks/mhacks-web
+
+https://mhacks.org/
 
 ## Environment variables:
 
