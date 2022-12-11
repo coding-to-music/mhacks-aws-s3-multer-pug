@@ -1,5 +1,5 @@
 {
-    "name": "mhacks-web",
+    "name": "mhacks-aws-s3-multer-pug",
     "version": "0.0.1",
     "description": "The super cool mhacks website",
     "main": "app.js",
@@ -8,6 +8,7 @@
     "license": "GPL-3.0",
     "scripts": {
         "start": "node app.js",
+        "deploy": "git add . && git commit -m Build && git push",
         "startweb": "webpack-dev-server --progress --colors --inline --watch --hot --devtool source-map --history-api-fallback --host 0.0.0.0 --port 3000",
         "startprod": "npm run build && NODE_ENV=production npm run start",
         "build": "webpack --progress --colors",

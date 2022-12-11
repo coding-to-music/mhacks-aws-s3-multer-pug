@@ -1,3 +1,32 @@
+# mhacks-aws-s3-multer-pug
+
+
+# 🚀 YYYYYYYYYYYYYYYYYYY 🚀
+
+https://github.com/coding-to-music/mhacks-aws-s3-multer-pug
+
+https://mhacks-aws-s3-multer-pug.vercel.app
+
+
+From / By 
+
+## Environment variables:
+
+```java
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/mhacks-aws-s3-multer-pug.git
+git push -u origin main
+```
+
 # MHacks Web
 
 ## Getting up and running
