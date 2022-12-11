@@ -164,6 +164,100 @@ git branch -M main
 git remote add origin git@github.com:coding-to-music/mhacks-aws-s3-multer-pug.git
 git push -u origin main
 ```
+## ncu Node Upgrade Version Packages
+
+```
+ncu
+```
+
+Output
+
+```
+Using yarn
+Checking /mnt/volume_nyc1_01/mhacks-aws-s3-multer-pug/package.json
+[====================] 99/99 100%
+
+ @babel/core                                      ^7.5.5  →    ^7.20.5
+ @babel/plugin-proposal-object-rest-spread        ^7.5.5  →    ^7.20.2
+ @babel/preset-env                                ^7.5.5  →    ^7.20.2
+ @babel/preset-react                              ^7.0.0  →    ^7.18.6
+ @newrelic/native-metrics                         ^4.1.0  →     ^9.0.0
+ archiver                                         ^3.0.3  →     ^5.3.1
+ autoprefixer                                     ^9.6.1  →   ^10.4.13
+ aws-sdk                                        ^2.503.0  →  ^2.1272.0
+ babel-loader                                     ^8.0.6  →     ^9.1.0
+ bcrypt                                           ^3.0.6  →     ^5.1.0
+ body-parser                                     ^1.19.0  →    ^1.20.1
+ clean-webpack-plugin                             ^3.0.0  →     ^4.0.0
+ connect-history-api-fallback                     ^1.6.0  →     ^2.0.0
+ connect-mongo                                    ^3.0.0  →     ^4.6.0
+ connected-react-router                           ^6.5.2  →     ^6.9.3
+ copy-webpack-plugin                              ^5.0.4  →    ^11.0.0
+ css-loader                                       ^3.1.0  →     ^6.7.2
+ escape-string-regexp                             ^2.0.0  →     ^5.0.0
+ eslint                                           ^6.1.0  →    ^8.29.0
+ eslint-plugin-react                             ^7.14.3  →   ^7.31.11
+ express                                         ^4.17.1  →    ^4.18.2
+ express-session                                 ^1.16.2  →    ^1.17.3
+ fetch-intercept                                  ^2.3.1  →     ^2.4.0
+ file-loader                                      ^4.1.0  →     ^6.2.0
+ fuse.js                                          ^3.4.5  →     ^6.6.2
+ history                                          ^4.7.2  →     ^5.3.0
+ html-webpack-plugin                              ^3.2.0  →     ^5.5.0
+ immutable                                  ^4.0.0-rc.12  →     ^4.1.0
+ isomorphic-fetch                                 ^2.2.1  →     ^3.0.0
+ json2csv                                         ^4.5.2  →     ^5.0.7
+ lodash                                         ^4.17.19  →   ^4.17.21
+ mailchimp-api-v3                                ^1.13.1  →    ^1.15.0
+ mailgun.js                                       ^3.5.9  →     ^8.0.6
+ mime                                             ^2.4.4  →     ^3.0.0
+ mini-css-extract-plugin                          ^0.8.0  →     ^2.7.2
+ mkdirp                                           ^0.5.1  →     ^1.0.4
+ moment                                          ^2.24.0  →    ^2.29.4
+ mongoose                                         ^5.7.5  →     ^6.8.0
+ morgan                                           ^1.9.1  →    ^1.10.0
+ multer-s3                                        ^2.9.0  →     ^3.0.1
+ newrelic                                        ^5.10.0  →     ^9.7.2
+ node-pushnotifications                          ^1.1.12  →     ^2.0.3
+ node-ssh                                         ^6.0.0  →    ^13.0.0
+ postcss-loader                                   ^3.0.0  →     ^7.0.2
+ prettier                                        ^1.18.2  →     ^2.8.1
+ prop-types                                      ^15.7.2  →    ^15.8.1
+ pug                                              ^2.0.4  →     ^3.0.2
+ qrcode                                           ^1.4.1  →     ^1.5.1
+ react                                           ^16.8.6  →    ^18.2.0
+ react-big-calendar                              ^0.22.0  →     ^1.5.2
+ react-burger-menu                               ^2.6.10  →     ^3.0.8
+ react-dom                                       ^16.8.6  →    ^18.2.0
+ react-helmet                                     ^5.2.1  →     ^6.1.0
+ react-hot-loader                               ^4.12.10  →    ^4.13.1
+ react-intl                                       ^2.9.0  →     ^6.2.5
+ react-list                                      ^0.8.11  →    ^0.8.17
+ react-measure                                    ^2.3.0  →     ^2.5.2
+ react-notification                               ^6.8.4  →     ^6.8.5
+ react-redux                                      ^7.1.0  →     ^8.0.5
+ react-router                                     ^5.0.1  →     ^6.4.5
+ react-router-dom                                 ^5.0.1  →     ^6.4.5
+ react-select                                      1.2.1  →      5.7.0
+ react-table                                     ^6.10.0  →     ^7.8.0
+ redux                                            ^4.0.4  →     ^4.2.0
+ redux-persist                                   ^5.10.0  →     ^6.0.0
+ redux-persist-transform-filter                  ^0.0.18  →    ^0.0.22
+ redux-thunk                                      ^2.3.0  →     ^2.4.2
+ sharp                                           ^0.23.0  →    ^0.31.2
+ style-loader                                    ^0.23.1  →     ^3.3.1
+ styled-components                                ^4.3.2  →     ^5.3.6
+ swagger-ui-express                               ^4.0.7  →     ^4.6.0
+ url-loader                                       ^2.1.0  →     ^4.1.1
+ validator                                       ^11.1.0  →    ^13.7.0
+ webpack                                         ^4.38.0  →    ^5.75.0
+ webpack-cli                                      ^3.3.6  →     ^5.0.1
+ webpack-dev-middleware                           ^3.7.0  →     ^6.0.1
+ webpack-dev-server                               ^3.7.2  →    ^4.11.1
+ webpack-hot-middleware                          ^2.25.0  →    ^2.25.3
+
+Run ncu -u to upgrade package.json
+```
 
 # MHacks Web
 
