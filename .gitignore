@@ -46,3 +46,4 @@ build/*
 .vscode/
 
 !keys/.gitkeep
+.vercel
